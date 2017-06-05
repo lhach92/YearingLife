@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import <AVOSCloud/AVOSCloud.h>
+#import <AVOSCloudCrashReporting/AVOSCloudCrashReporting.h>
+
+#define APP_ID @"CF92tUjSV1WkSN09TC479xNW-gzGzoHsz"
+#define APP_KEY @"QGypfqheL6Dk5P8RnYoAxmw7"
 
 @interface AppDelegate ()
 
@@ -17,6 +22,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [AVOSCloudCrashReporting enable];
+    [AVOSCloud setApplicationId:APP_ID clientKey:APP_KEY];
+    
     return YES;
 }
 

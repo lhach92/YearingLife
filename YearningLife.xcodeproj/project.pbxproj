@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72465D1BCA6CB7FE0613A161 /* libPods-YearningLife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 612273B3554BF356C929811B /* libPods-YearningLife.a */; };
 		7BB18EAF1EDC7D3800F15127 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB18EAE1EDC7D3800F15127 /* main.m */; };
 		7BB18EB21EDC7D3800F15127 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB18EB11EDC7D3800F15127 /* AppDelegate.m */; };
 		7BB18EB51EDC7D3800F15127 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB18EB41EDC7D3800F15127 /* ViewController.m */; };
@@ -15,6 +16,15 @@
 		7BB18EBD1EDC7D3800F15127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB18EBB1EDC7D3800F15127 /* LaunchScreen.storyboard */; };
 		7BB18EC81EDC7D3800F15127 /* YearningLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB18EC71EDC7D3800F15127 /* YearningLifeTests.m */; };
 		7BB18ED31EDC7D3800F15127 /* YearningLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB18ED21EDC7D3800F15127 /* YearningLifeUITests.m */; };
+		7BB18EE21EDC7EB300F15127 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB18EE11EDC7EB300F15127 /* LoginViewController.m */; };
+		7BB18EE61EDC7EED00F15127 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB18EE41EDC7EED00F15127 /* RegisterViewController.m */; };
+		7BB18EF01EDD7C7300F15127 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB18EEF1EDD7C7300F15127 /* MainViewController.m */; };
+		7BB18EF31EDD7D6D00F15127 /* CostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB18EF21EDD7D6D00F15127 /* CostListViewController.m */; };
+		7BB18EFA1EDD7EAD00F15127 /* CostListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB18EF81EDD7EAD00F15127 /* CostListTableViewCell.m */; };
+		7BB18EFB1EDD7EAD00F15127 /* CostListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BB18EF91EDD7EAD00F15127 /* CostListTableViewCell.xib */; };
+		7BB18EFE1EDD852A00F15127 /* CostInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB18EFD1EDD852A00F15127 /* CostInfo.m */; };
+		7BEC2D9E1EE55AF30006F908 /* PersonalAccountInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC2D9D1EE55AF30006F908 /* PersonalAccountInfo.m */; };
+		7BEC2DA11EE561500006F908 /* AccountInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEC2DA01EE561500006F908 /* AccountInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FF96E571835ABF6F3960091 /* Pods-YearningLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YearningLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YearningLife/Pods-YearningLife.debug.xcconfig"; sourceTree = "<group>"; };
+		612273B3554BF356C929811B /* libPods-YearningLife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YearningLife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB18EAA1EDC7D3800F15127 /* YearningLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YearningLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB18EAE1EDC7D3800F15127 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BB18EB01EDC7D3800F15127 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,24 @@
 		7BB18ECE1EDC7D3800F15127 /* YearningLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YearningLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB18ED21EDC7D3800F15127 /* YearningLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YearningLifeUITests.m; sourceTree = "<group>"; };
 		7BB18ED41EDC7D3800F15127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB18EE01EDC7EB300F15127 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7BB18EE11EDC7EB300F15127 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7BB18EE31EDC7EED00F15127 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		7BB18EE41EDC7EED00F15127 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		7BB18EEE1EDD7C7300F15127 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7BB18EEF1EDD7C7300F15127 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7BB18EF11EDD7D6D00F15127 /* CostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostListViewController.h; sourceTree = "<group>"; };
+		7BB18EF21EDD7D6D00F15127 /* CostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostListViewController.m; sourceTree = "<group>"; };
+		7BB18EF71EDD7EAD00F15127 /* CostListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostListTableViewCell.h; sourceTree = "<group>"; };
+		7BB18EF81EDD7EAD00F15127 /* CostListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostListTableViewCell.m; sourceTree = "<group>"; };
+		7BB18EF91EDD7EAD00F15127 /* CostListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CostListTableViewCell.xib; sourceTree = "<group>"; };
+		7BB18EFC1EDD852A00F15127 /* CostInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CostInfo.h; sourceTree = "<group>"; };
+		7BB18EFD1EDD852A00F15127 /* CostInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CostInfo.m; sourceTree = "<group>"; };
+		7BEC2D9C1EE55AF30006F908 /* PersonalAccountInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalAccountInfo.h; sourceTree = "<group>"; };
+		7BEC2D9D1EE55AF30006F908 /* PersonalAccountInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalAccountInfo.m; sourceTree = "<group>"; };
+		7BEC2D9F1EE561500006F908 /* AccountInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInfo.h; sourceTree = "<group>"; };
+		7BEC2DA01EE561500006F908 /* AccountInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountInfo.m; sourceTree = "<group>"; };
+		BCAB9E27C11617E9A464F379 /* Pods-YearningLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YearningLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-YearningLife/Pods-YearningLife.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72465D1BCA6CB7FE0613A161 /* libPods-YearningLife.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35DAD9B87F6990A0C53196C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FF96E571835ABF6F3960091 /* Pods-YearningLife.debug.xcconfig */,
+				BCAB9E27C11617E9A464F379 /* Pods-YearningLife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7BB18EA11EDC7D3800F15127 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				7BB18EC61EDC7D3800F15127 /* YearningLifeTests */,
 				7BB18ED11EDC7D3800F15127 /* YearningLifeUITests */,
 				7BB18EAB1EDC7D3800F15127 /* Products */,
+				35DAD9B87F6990A0C53196C9 /* Pods */,
+				9D67430BC6644391178EFE26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +147,23 @@
 				7BB18EB11EDC7D3800F15127 /* AppDelegate.m */,
 				7BB18EB31EDC7D3800F15127 /* ViewController.h */,
 				7BB18EB41EDC7D3800F15127 /* ViewController.m */,
+				7BB18EE01EDC7EB300F15127 /* LoginViewController.h */,
+				7BB18EE11EDC7EB300F15127 /* LoginViewController.m */,
+				7BB18EE31EDC7EED00F15127 /* RegisterViewController.h */,
+				7BB18EE41EDC7EED00F15127 /* RegisterViewController.m */,
+				7BB18EEE1EDD7C7300F15127 /* MainViewController.h */,
+				7BB18EEF1EDD7C7300F15127 /* MainViewController.m */,
+				7BB18EF11EDD7D6D00F15127 /* CostListViewController.h */,
+				7BB18EF21EDD7D6D00F15127 /* CostListViewController.m */,
+				7BB18EF71EDD7EAD00F15127 /* CostListTableViewCell.h */,
+				7BB18EF81EDD7EAD00F15127 /* CostListTableViewCell.m */,
+				7BB18EFC1EDD852A00F15127 /* CostInfo.h */,
+				7BB18EFD1EDD852A00F15127 /* CostInfo.m */,
+				7BEC2D9C1EE55AF30006F908 /* PersonalAccountInfo.h */,
+				7BEC2D9D1EE55AF30006F908 /* PersonalAccountInfo.m */,
+				7BEC2D9F1EE561500006F908 /* AccountInfo.h */,
+				7BEC2DA01EE561500006F908 /* AccountInfo.m */,
+				7BB18EF91EDD7EAD00F15127 /* CostListTableViewCell.xib */,
 				7BB18EB61EDC7D3800F15127 /* Main.storyboard */,
 				7BB18EB91EDC7D3800F15127 /* Assets.xcassets */,
 				7BB18EBB1EDC7D3800F15127 /* LaunchScreen.storyboard */,
@@ -140,6 +199,14 @@
 			path = YearningLifeUITests;
 			sourceTree = "<group>";
 		};
+		9D67430BC6644391178EFE26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				612273B3554BF356C929811B /* libPods-YearningLife.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BB18ED71EDC7D3800F15127 /* Build configuration list for PBXNativeTarget "YearningLife" */;
 			buildPhases = (
+				1C4232C3DEA340A70FE775E1 /* [CP] Check Pods Manifest.lock */,
 				7BB18EA61EDC7D3800F15127 /* Sources */,
 				7BB18EA71EDC7D3800F15127 /* Frameworks */,
 				7BB18EA81EDC7D3800F15127 /* Resources */,
+				AC79095608CD0FFA41BD2EBB /* [CP] Embed Pods Frameworks */,
+				4AD95CAAB530784955064891 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +318,7 @@
 			files = (
 				7BB18EBD1EDC7D3800F15127 /* LaunchScreen.storyboard in Resources */,
 				7BB18EBA1EDC7D3800F15127 /* Assets.xcassets in Resources */,
+				7BB18EFB1EDD7EAD00F15127 /* CostListTableViewCell.xib in Resources */,
 				7BB18EB81EDC7D3800F15127 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,13 +339,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C4232C3DEA340A70FE775E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD95CAAB530784955064891 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YearningLife/Pods-YearningLife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC79095608CD0FFA41BD2EBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YearningLife/Pods-YearningLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7BB18EA61EDC7D3800F15127 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB18EE61EDC7EED00F15127 /* RegisterViewController.m in Sources */,
+				7BB18EF01EDD7C7300F15127 /* MainViewController.m in Sources */,
+				7BB18EFA1EDD7EAD00F15127 /* CostListTableViewCell.m in Sources */,
+				7BB18EE21EDC7EB300F15127 /* LoginViewController.m in Sources */,
 				7BB18EB51EDC7D3800F15127 /* ViewController.m in Sources */,
+				7BEC2D9E1EE55AF30006F908 /* PersonalAccountInfo.m in Sources */,
+				7BB18EFE1EDD852A00F15127 /* CostInfo.m in Sources */,
+				7BB18EF31EDD7D6D00F15127 /* CostListViewController.m in Sources */,
 				7BB18EB21EDC7D3800F15127 /* AppDelegate.m in Sources */,
+				7BEC2DA11EE561500006F908 /* AccountInfo.m in Sources */,
 				7BB18EAF1EDC7D3800F15127 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,9 +551,11 @@
 		};
 		7BB18ED81EDC7D3800F15127 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF96E571835ABF6F3960091 /* Pods-YearningLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YearningLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LH.YearningLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,9 +564,11 @@
 		};
 		7BB18ED91EDC7D3800F15127 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCAB9E27C11617E9A464F379 /* Pods-YearningLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YearningLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LH.YearningLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +640,7 @@
 				7BB18ED91EDC7D3800F15127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BB18EDA1EDC7D3800F15127 /* Build configuration list for PBXNativeTarget "YearningLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +649,7 @@
 				7BB18EDC1EDC7D3800F15127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BB18EDD1EDC7D3800F15127 /* Build configuration list for PBXNativeTarget "YearningLifeUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +658,7 @@
 				7BB18EDF1EDC7D3800F15127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

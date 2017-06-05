@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <AVOSCloud/AVOSCloud.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self checkIfHasLoggedIn];
+}
+
+- (void)checkIfHasLoggedIn {
+    AVUser *currentUser = [AVUser currentUser];
+    if (currentUser) {
+        [self performSegueWithIdentifier:@"showMainVC" sender:nil];
+    } else {
+        [self performSegueWithIdentifier:@"showLoginVC" sender:nil];
+    }
 }
 
 
